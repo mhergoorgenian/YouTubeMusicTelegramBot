@@ -1,37 +1,46 @@
-YouTube Music Telegram Bot
+# YouTube Music Telegram Bot
+
 A Telegram bot that allows users to search for songs on YouTube Music and download them as MP3 files.
 
-Usage
-Install the required dependencies:
+## Usage
 
-youtube_dl
-telebot
-ytmusicapi
-Obtain a Telegram bot token from BotFather.
+1. Install the required dependencies:
+   - youtube_dl
+   - telebot
+   - ytmusicapi
 
-Replace 'YOUR_BOT_TOKEN' in the code with your actual bot token.
+2. Obtain a Telegram bot token from BotFather.
 
-Start the bot script.
+3. Replace `'YOUR_BOT_TOKEN'` in the code with your actual bot token.
 
-Open a conversation with the bot on Telegram.
+4. Start the bot script.
 
-Send the name of a song to the bot.
+5. Open a conversation with the bot on Telegram.
 
-The bot will search for the song on YouTube Music.
+6. Send the name of a song to the bot.
 
-If a matching result is found, the bot will reply with the song as an MP3 audio file.
+7. The bot will search for the song on YouTube Music.
 
-Configuration
+8. If a matching result is found, the bot will reply with the song as an MP3 audio file.
+
+## Configuration
+
 No additional configuration is required for this project.
 
-Contributing
+## Contributing
+
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to submit a pull request or open an issue.
 
-Credits
-youtube_dl - Python library for downloading YouTube videos
-telebot - Python library for building Telegram bots
-ytmusicapi - Python library for interacting with the YouTube Music API
+## License
 
-Acknowledgements
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+## Credits
+
+- [youtube_dl](https://github.com/ytdl-org/youtube-dl) - Python library for downloading YouTube videos
+- [telebot](https://github.com/eternnoir/pyTelegramBotAPI) - Python library for building Telegram bots
+- [ytmusicapi](https://github.com/sigma67/ytmusicapi) - Python library for interacting with the YouTube Music API
+
+## Acknowledgements
+
 Special thanks to BotFather for providing the Telegram bot platform.
-
