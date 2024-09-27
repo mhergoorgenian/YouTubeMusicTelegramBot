@@ -23,9 +23,6 @@ A Telegram bot that allows users to search for songs on YouTube Music and downlo
 
 8. If a matching result is found, the bot will reply with the song as an MP3 audio file.
 
-## Configuratio
-
-No additional configuration is required for this project.
 
 ## Contributing
 
